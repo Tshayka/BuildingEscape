@@ -7,7 +7,7 @@
 #include "PositionReport.generated.h"
 
 
-UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
+UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )// tell how to work this class with unreal class
 class BUILDINGESCAPE_API UPositionReport : public UActorComponent
 {
 	GENERATED_BODY()
